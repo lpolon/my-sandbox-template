@@ -1,5 +1,8 @@
 {
   "name": "random-css-practice",
+  "browserslist": [
+    "defaults"
+  ],
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +12,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "open-props": "^1.4.25",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -16,6 +20,8 @@
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
     "@vitejs/plugin-react": "^2.2.0",
+    "postcss-jit-props": "^1.0.7",
+    "postcss-preset-env": "^7.8.3",
     "typescript": "^4.6.4",
     "vite": "^3.2.3"
   }
