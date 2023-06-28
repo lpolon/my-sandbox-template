@@ -10,3 +10,7 @@ main {
   height: 100vh;
   background-image: var(--gradient-9);
 }
+
+h1 {
+  color: var(--choco-10);
+}
